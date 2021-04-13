@@ -1,1 +1,0 @@
-# protenus-assessment
