@@ -1,8 +1,15 @@
 # protenus-assessment
 To run the code, you first need to run the following command.
 
-python -m pip install -r requirements.txt
+```
+$ python -m pip install -r requirements.txt
+```
 
-then when running python pingSite.py http://google.com
+after that run the following command for running the application
 
-This asks the status of 1 site every minute and writes it in HttpCode. If there is no problem, it writes the error code 500 if there is 400 etc
+```
+$ python pingSite.py http://google.com
+```
+
+This asks the status of http://google.com site every minute and writes it in HttpCode. If there is no problem it writes 200, or the case
+it writes the error code 500, 400 etc. That codes based on HTTP Response code.
